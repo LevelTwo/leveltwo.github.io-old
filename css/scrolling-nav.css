@@ -1,0 +1,96 @@
+/*!
+ * Start Bootstrap - Scrolling Nav HTML Template (http://startbootstrap.com)
+ * Code licensed under the Apache License v2.0.
+ * For details, see http://www.apache.org/licenses/LICENSE-2.0.
+ */
+
+body {
+    width: 100%;
+    height: 100%;
+    font-family: 'Roboto', Helvetica, Arial, sans-serif;
+    font-size: 18px;
+}
+
+h1 {
+    font-size: 72px;
+    font-family: 'Shadows Into Light', cursive;
+}
+
+h2 {
+    font-size: 48px;
+    font-family: 'Shadows Into Light', cursive;
+}
+
+h3, h4, h5, h6 {
+    font-family: 'Shadows Into Light', cursive;
+}
+
+html {
+    width: 100%;
+    height: 100%;
+}
+
+table {
+    background-color: #000;
+}
+
+/* Demo Sections - You can use these as guides or delete them - the scroller will work with any sort of height, fixed, undefined, or percentage based.
+The padding is very important to make sure the scrollspy picks up the right area when scrolled to. Adjust the margin and padding of sections and children
+of those sections to manage the look and feel of the site. */
+
+.navbar {
+    min-height: 80px;
+}
+
+.navbar-nav > li > a {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.navbar-toggle {
+    margin-right: 20px;
+    margin-top: 23px;
+}
+
+.intro-section {
+    height: 100%;
+    padding-top: 120px;
+    text-align: center;
+}
+
+.odd-section {
+    height: 600px;
+    padding-top: 80px;
+    text-align: center;
+    overflow: hidden;
+    background: #222;
+}
+
+.even-section {
+    height: 600px;
+    padding-top: 80px;
+    text-align: center;
+    overflow: hidden;
+}
+
+.results-section {
+    height: 100%;
+    padding-top: 80px;
+    text-align: center;
+}
+
+.btn {
+    font-size: 32px;
+}
+
+.btn-wrong-answer {
+    opacity: 0.75 !important;
+}
+
+.btn.disabled {
+    opacity: 1;
+}
+
+.description {
+    color: #fff;
+}
