@@ -1,0 +1,401 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="Sneaky Sahai">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Thai or Chinese?</title>
+    <!-- Add to homescreen for Chrome on Android -->
+    <meta name="mobile-web-app-capable" content="yes">
+    <!-- Add to homescreen for Safari on iOS -->
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta name="apple-mobile-web-app-title" content="Sneaky Sahai">
+    <!-- SEO: If your mobile URL is different from the desktop URL, add a canonical link to the desktop page https://developers.google.com/webmasters/smartphone-sites/feature-phones -->
+    <!--
+    <link rel="canonical" href="http://www.example.com/">
+    -->
+    <link href="https://fonts.googleapis.com/css?family=Roboto:regular,bold,italic,thin,light,bolditalic,black,medium&amp;lang=en" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="css/material.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <style>
+    #view-source {
+        position: fixed;
+        display: block;
+        right: 0;
+        bottom: 0;
+        margin-right: 40px;
+        margin-bottom: 40px;
+        z-index: 900;
+    }
+    </style>
+</head>
+
+<body>
+    <div class="demo-layout mdl-layout mdl-js-layout mdl-layout--fixed-header">
+        <header class="demo-header mdl-layout__header">
+            <div class="mdl-layout__header-row">
+                <div class="header-title">
+                    <span class="section-title">
+              <span class="mdl-button mdl-js-button" id="section">
+                Thai or Chinese?
+                <span class="material-icons center-icon mdl-layout--large-screen-only" role="presentation">arrow_drop_down</span>
+                    </span>
+                    <ul class="mdl-menu mdl-js-menu" for="section">
+                        <a href="index.html"><li class="mdl-menu__item" disabled>Thai or Chinese?</li></a>
+                        <a href="tc2.html"><li class="mdl-menu__item">Thai or Chinese? 2</li></a>
+                        <a href="fm1.html"><li class="mdl-menu__item">Footballer or Mathematician?</li></a>
+                        <a href="fm2.html"><li class="mdl-menu__item">Footballer of Mathematician? 2</li></a>
+                    </ul>
+                    </span>
+                    <span class="chapter-title">
+              <span class="material-icons center-icon">chevron_right</span>
+                    <button class="mdl-button mdl-js-button" id="chapter">
+                        <span id="question-number">Q1</span>
+                        <i class="material-icons center-icon mdl-layout--large-screen-only" role="presentation">arrow_drop_down</i>
+                    </button>
+                    <ul class="mdl-menu mdl-js-menu" for="chapter">
+                        <a class="page-scroll" href="#q1">
+                            <li class="mdl-menu__item" disabled>Q1</li>
+                        </a>
+                        <a class="page-scroll" href="#q2">
+                            <li class="mdl-menu__item">Q2</li>
+                        </a>
+                        <a class="page-scroll" href="#q3">
+                            <li class="mdl-menu__item">Q3</li>
+                        </a>
+                        <a class="page-scroll" href="#q4">
+                            <li class="mdl-menu__item">Q4</li>
+                        </a>
+                        <a class="page-scroll" href="#q5">
+                            <li class="mdl-menu__item">Q5</li>
+                        </a>
+                        <a class="page-scroll" href="#q6">
+                            <li class="mdl-menu__item">Q6</li>
+                        </a>
+                        <a class="page-scroll" href="#q7">
+                            <li class="mdl-menu__item">Q7</li>
+                        </a>
+                        <a class="page-scroll" href="#q8">
+                            <li class="mdl-menu__item">Q8</li>
+                        </a>
+                        <a class="page-scroll" href="#q9">
+                            <li class="mdl-menu__item">Q9</li>
+                        </a>
+                        <a class="page-scroll" href="#q10">
+                            <li class="mdl-menu__item">Q10</li>
+                        </a>
+                        <a class="page-scroll" href="#q11">
+                            <li class="mdl-menu__item">Q11</li>
+                        </a>
+                        <a class="page-scroll" href="#q12">
+                            <li class="mdl-menu__item">Q12</li>
+                        </a>
+                    </ul>
+                    </span>
+                </div>
+            </div>
+        </header>
+        <div class="mdl-drawer mdl-layout__drawer mdl-color--blue-grey-900 mdl-color-text--blue-grey-50">
+            <span class="mdl-layout-title">All Quizzes</span>
+            <nav class="mdl-navigation mdl-color--blue-grey-800">
+                <a class="mdl-navigation__link" href="fm1.html">Footballer or Mathematician?</a>
+                <a class="mdl-navigation__link" href="fm2.html">Footballer or Mathematician? 2</a>
+                <a class="mdl-navigation__link" href="index.html">Thai or Chinese?</a>
+                <a class="mdl-navigation__link" href="tc2.html">Thai or Chinese? 2</a>
+            </nav>
+        </div>
+        <main class="mdl-layout__content">
+            <section class="section--center mdl-grid">
+                <!-- INTRO CARD -->
+                <div class="mdl-cell mdl-cell--12-col mdl-intro2">
+                    <div class="mdl-card mdl-shadow--2dp">
+                        <div class="mdl-card__title">
+                            <h2 class="mdl-card__title-text">The Thai or Chinese Challenge</h2></div>
+                        <div class="mdl-card__supporting-text">
+                            <p>Many Thai and Chinese individuals share strikingly similar appearances!</p>
+                            <p>Still not convinced? Take this 12-question challenge and see how many you can guess right!</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- END INTRO CARD -->
+                <!-- QUESTION 1 -->
+                <div id="q1" class="mdl-cell mdl-cell--12-col mdl-text-question">
+                    <div class="mdl-card mdl-shadow--2dp">
+                        <div class="mdl-card__title mdl-card--expand" style="background-image: url(images/liu_chuanzhi.jpg); background-repeat: no-repeat; background-position: center; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover;">
+                            <h2 class="mdl-card__title-text" style="display: none;">Liǔ Chuánzhì (柳传志)</h2></div>
+                        <div class="mdl-card__actions mdl-card--border">
+                            <button class="mdl-button mdl-button--colored mdl-button--question mdl-button--image mdl-js-button mdl-button--raised" data-upgraded=",MaterialButton"><i class="material-icons center-icon">remove</i><span class="mdl-checkbox__label">Thai</span></button>
+                            <button class="mdl-button mdl-button--colored mdl-button--question mdl-button--image mdl-js-button mdl-button--raised" data-upgraded=",MaterialButton"><i class="material-icons center-icon">remove</i><span class="mdl-checkbox__label">Chinese</span></button>
+                            <button class="mdl-button mdl-button--colored mdl-js-button mdl-more-info" style="display: none;" data-upgraded=",MaterialButton"><span class="more-info">More Info</span><i class="material-icons center-icon more-info-icon">expand_more</i></button>
+                        </div>
+                        <div class="mdl-card__supporting-text more-info" style="display: none;">
+                            <p>Liǔ Chuánzhì (Born April 29, 1944) is a Chinese businessman. Liu is the founder and former CEO of Lenovo, the largest computer maker in the world, and remains the paramount leader of the firm.</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- END QUESTION 1 -->
+                <!-- QUESTION 2 -->
+                <div id="q2" class="mdl-cell mdl-cell--12-col mdl-text-question">
+                    <div class="mdl-card mdl-shadow--2dp">
+                        <div class="mdl-card__title mdl-card--expand" style="background-image: url(images/dhanin_chearavanont.jpg); background-repeat: no-repeat; background-position: center; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover;">
+                            <h2 class="mdl-card__title-text" style="display: none;">Dhanin Chearavanont</h2></div>
+                        <div class="mdl-card__actions mdl-card--border">
+                            <button class="mdl-button mdl-button--colored mdl-button--question mdl-button--image mdl-js-button mdl-button--raised" data-upgraded=",MaterialButton"><i class="material-icons center-icon">remove</i><span class="mdl-checkbox__label">Thai</span></button>
+                            <button class="mdl-button mdl-button--colored mdl-button--question mdl-button--image mdl-js-button mdl-button--raised" data-upgraded=",MaterialButton"><i class="material-icons center-icon">remove</i><span class="mdl-checkbox__label">Chinese</span></button>
+                            <button class="mdl-button mdl-button--colored mdl-js-button mdl-more-info" style="display: none;" data-upgraded=",MaterialButton"><span class="more-info">More Info</span><i class="material-icons center-icon more-info-icon">expand_more</i></button>
+                        </div>
+                        <div class="mdl-card__supporting-text more-info" style="display: none;">
+                            <p>More info in the future.</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- END QUESTION 2 -->
+                <!-- QUESTION 3 -->
+                <div id="q3" class="mdl-cell mdl-cell--12-col mdl-text-question">
+                    <div class="mdl-card mdl-shadow--2dp">
+                        <div class="mdl-card__title mdl-card--expand" style="background-image: url(images/james_assarasakorn.jpg); background-repeat: no-repeat; background-position: center; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover;">
+                            <h2 class="mdl-card__title-text" style="display: none;">James Assarasakorn</h2></div>
+                        <div class="mdl-card__actions mdl-card--border">
+                            <button class="mdl-button mdl-button--colored mdl-button--question mdl-button--image mdl-js-button mdl-button--raised" data-upgraded=",MaterialButton"><i class="material-icons center-icon">remove</i><span class="mdl-checkbox__label">Thai</span></button>
+                            <button class="mdl-button mdl-button--colored mdl-button--question mdl-button--image mdl-js-button mdl-button--raised" data-upgraded=",MaterialButton"><i class="material-icons center-icon">remove</i><span class="mdl-checkbox__label">Chinese</span></button>
+                            <button class="mdl-button mdl-button--colored mdl-js-button mdl-more-info" style="display: none;" data-upgraded=",MaterialButton"><span class="more-info">More Info</span><i class="material-icons center-icon more-info-icon">expand_more</i></button>
+                        </div>
+                        <div class="mdl-card__supporting-text more-info" style="display: none;">
+                            <p>More info in the future.</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- END QUESTION 3 -->
+                <!-- QUESTION 4 -->
+                <div id="q4" class="mdl-cell mdl-cell--12-col mdl-text-question">
+                    <div class="mdl-card mdl-shadow--2dp">
+                        <div class="mdl-card__title mdl-card--expand" style="background-image: url(images/liu_yifei.jpg); background-repeat: no-repeat; background-position: center; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover;">
+                            <h2 class="mdl-card__title-text" style="display: none;">Líu Yìfēi (刘亦菲)</h2></div>
+                        <div class="mdl-card__actions mdl-card--border">
+                            <button class="mdl-button mdl-button--colored mdl-button--question mdl-button--image mdl-js-button mdl-button--raised" data-upgraded=",MaterialButton"><i class="material-icons center-icon">remove</i><span class="mdl-checkbox__label">Thai</span></button>
+                            <button class="mdl-button mdl-button--colored mdl-button--question mdl-button--image mdl-js-button mdl-button--raised" data-upgraded=",MaterialButton"><i class="material-icons center-icon">remove</i><span class="mdl-checkbox__label">Chinese</span></button>
+                            <button class="mdl-button mdl-button--colored mdl-js-button mdl-more-info" style="display: none;" data-upgraded=",MaterialButton"><span class="more-info">More Info</span><i class="material-icons center-icon more-info-icon">expand_more</i></button>
+                        </div>
+                        <div class="mdl-card__supporting-text more-info" style="display: none;">
+                            <p>More info in the future.</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- END QUESTION 4 -->
+                <!-- QUESTION 5 -->
+                <div id="q5" class="mdl-cell mdl-cell--12-col mdl-text-question">
+                    <div class="mdl-card mdl-shadow--2dp">
+                        <div class="mdl-card__title mdl-card--expand" style="background-image: url(images/li_yifeng.jpg); background-repeat: no-repeat; background-position: center; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover;">
+                            <h2 class="mdl-card__title-text" style="display: none;">Lǐ Yìfēng (李易峰)</h2></div>
+                        <div class="mdl-card__actions mdl-card--border">
+                            <button class="mdl-button mdl-button--colored mdl-button--question mdl-button--image mdl-js-button mdl-button--raised" data-upgraded=",MaterialButton"><i class="material-icons center-icon">remove</i><span class="mdl-checkbox__label">Thai</span></button>
+                            <button class="mdl-button mdl-button--colored mdl-button--question mdl-button--image mdl-js-button mdl-button--raised" data-upgraded=",MaterialButton"><i class="material-icons center-icon">remove</i><span class="mdl-checkbox__label">Chinese</span></button>
+                            <button class="mdl-button mdl-button--colored mdl-js-button mdl-more-info" style="display: none;" data-upgraded=",MaterialButton"><span class="more-info">More Info</span><i class="material-icons center-icon more-info-icon">expand_more</i></button>
+                        </div>
+                        <div class="mdl-card__supporting-text more-info" style="display: none;">
+                            <p>More info in the future.</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- END QUESTION 5 -->
+                <!-- QUESTION 6 -->
+                <div id="q6" class="mdl-cell mdl-cell--12-col mdl-text-question">
+                    <div class="mdl-card mdl-shadow--2dp">
+                        <div class="mdl-card__title mdl-card--expand" style="background-image: url(images/nichkhun.jpg); background-repeat: no-repeat; background-position: center; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover;">
+                            <h2 class="mdl-card__title-text" style="display: none;">Nichkhun</h2></div>
+                        <div class="mdl-card__actions mdl-card--border">
+                            <button class="mdl-button mdl-button--colored mdl-button--question mdl-button--image mdl-js-button mdl-button--raised" data-upgraded=",MaterialButton"><i class="material-icons center-icon">remove</i><span class="mdl-checkbox__label">Thai</span></button>
+                            <button class="mdl-button mdl-button--colored mdl-button--question mdl-button--image mdl-js-button mdl-button--raised" data-upgraded=",MaterialButton"><i class="material-icons center-icon">remove</i><span class="mdl-checkbox__label">Chinese</span></button>
+                            <button class="mdl-button mdl-button--colored mdl-js-button mdl-more-info" style="display: none;" data-upgraded=",MaterialButton"><span class="more-info">More Info</span><i class="material-icons center-icon more-info-icon">expand_more</i></button>
+                        </div>
+                        <div class="mdl-card__supporting-text more-info" style="display: none;">
+                            <p>More info in the future.</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- END QUESTION 6 -->
+                <!-- QUESTION 7 -->
+                <div id="q7" class="mdl-cell mdl-cell--12-col mdl-text-question">
+                    <div class="mdl-card mdl-shadow--2dp">
+                        <div class="mdl-card__title mdl-card--expand" style="background-image: url(images/pimtha.jpg); background-repeat: no-repeat; background-position: center; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover;">
+                            <h2 class="mdl-card__title-text" style="display: none;">Pimtha</h2></div>
+                        <div class="mdl-card__actions mdl-card--border">
+                            <button class="mdl-button mdl-button--colored mdl-button--question mdl-button--image mdl-js-button mdl-button--raised" data-upgraded=",MaterialButton"><i class="material-icons center-icon">remove</i><span class="mdl-checkbox__label">Thai</span></button>
+                            <button class="mdl-button mdl-button--colored mdl-button--question mdl-button--image mdl-js-button mdl-button--raised" data-upgraded=",MaterialButton"><i class="material-icons center-icon">remove</i><span class="mdl-checkbox__label">Chinese</span></button>
+                            <button class="mdl-button mdl-button--colored mdl-js-button mdl-more-info" style="display: none;" data-upgraded=",MaterialButton"><span class="more-info">More Info</span><i class="material-icons center-icon more-info-icon">expand_more</i></button>
+                        </div>
+                        <div class="mdl-card__supporting-text more-info" style="display: none;">
+                            <p>More info in the future.</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- END QUESTION 7 -->
+                <!-- QUESTION 8 -->
+                <div id="q8" class="mdl-cell mdl-cell--12-col mdl-text-question">
+                    <div class="mdl-card mdl-shadow--2dp">
+                        <div class="mdl-card__title mdl-card--expand" style="background-image: url(images/pornnppan_pornpenpipat.jpg); background-repeat: no-repeat; background-position: center; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover;">
+                            <h2 class="mdl-card__title-text" style="display: none;">Pornnppan Pornpenpipat</h2></div>
+                        <div class="mdl-card__actions mdl-card--border">
+                            <button class="mdl-button mdl-button--colored mdl-button--question mdl-button--image mdl-js-button mdl-button--raised" data-upgraded=",MaterialButton"><i class="material-icons center-icon">remove</i><span class="mdl-checkbox__label">Thai</span></button>
+                            <button class="mdl-button mdl-button--colored mdl-button--question mdl-button--image mdl-js-button mdl-button--raised" data-upgraded=",MaterialButton"><i class="material-icons center-icon">remove</i><span class="mdl-checkbox__label">Chinese</span></button>
+                            <button class="mdl-button mdl-button--colored mdl-js-button mdl-more-info" style="display: none;" data-upgraded=",MaterialButton"><span class="more-info">More Info</span><i class="material-icons center-icon more-info-icon">expand_more</i></button>
+                        </div>
+                        <div class="mdl-card__supporting-text more-info" style="display: none;">
+                            <p>More info in the future.</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- END QUESTION 8 -->
+                <!-- QUESTION 9 -->
+                <div id="q9" class="mdl-cell mdl-cell--12-col mdl-text-question">
+                    <div class="mdl-card mdl-shadow--2dp">
+                        <div class="mdl-card__title mdl-card--expand" style="background-image: url(images/frung.jpg); background-repeat: no-repeat; background-position: center; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover;">
+                            <h2 class="mdl-card__title-text" style="display: none;">Frung</h2></div>
+                        <div class="mdl-card__actions mdl-card--border">
+                            <button class="mdl-button mdl-button--colored mdl-button--question mdl-button--image mdl-js-button mdl-button--raised" data-upgraded=",MaterialButton"><i class="material-icons center-icon">remove</i><span class="mdl-checkbox__label">Thai</span></button>
+                            <button class="mdl-button mdl-button--colored mdl-button--question mdl-button--image mdl-js-button mdl-button--raised" data-upgraded=",MaterialButton"><i class="material-icons center-icon">remove</i><span class="mdl-checkbox__label">Chinese</span></button>
+                            <button class="mdl-button mdl-button--colored mdl-js-button mdl-more-info" style="display: none;" data-upgraded=",MaterialButton"><span class="more-info">More Info</span><i class="material-icons center-icon more-info-icon">expand_more</i></button>
+                        </div>
+                        <div class="mdl-card__supporting-text more-info" style="display: none;">
+                            <p>More info in the future.</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- END QUESTION 9 -->
+                <!-- QUESTION 10 -->
+                <div id="q10" class="mdl-cell mdl-cell--12-col mdl-text-question">
+                    <div class="mdl-card mdl-shadow--2dp">
+                        <div class="mdl-card__title mdl-card--expand" style="background-image: url(images/charada_imraporn.jpg); background-repeat: no-repeat; background-position: center; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover;">
+                            <h2 class="mdl-card__title-text" style="display: none;">Charada Imraporn</h2></div>
+                        <div class="mdl-card__actions mdl-card--border">
+                            <button class="mdl-button mdl-button--colored mdl-button--question mdl-button--image mdl-js-button mdl-button--raised" data-upgraded=",MaterialButton"><i class="material-icons center-icon">remove</i><span class="mdl-checkbox__label">Thai</span></button>
+                            <button class="mdl-button mdl-button--colored mdl-button--question mdl-button--image mdl-js-button mdl-button--raised" data-upgraded=",MaterialButton"><i class="material-icons center-icon">remove</i><span class="mdl-checkbox__label">Chinese</span></button>
+                            <button class="mdl-button mdl-button--colored mdl-js-button mdl-more-info" style="display: none;" data-upgraded=",MaterialButton"><span class="more-info">More Info</span><i class="material-icons center-icon more-info-icon">expand_more</i></button>
+                        </div>
+                        <div class="mdl-card__supporting-text more-info" style="display: none;">
+                            <p>More info in the future.</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- END QUESTION 10 -->
+                <!-- QUESTION 11 -->
+                <div id="q11" class="mdl-cell mdl-cell--12-col mdl-text-question">
+                    <div class="mdl-card mdl-shadow--2dp">
+                        <div class="mdl-card__title mdl-card--expand" style="background-image: url(images/hu_bingqing.jpg); background-repeat: no-repeat; background-position: center; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover;">
+                            <h2 class="mdl-card__title-text" style="display: none;">Hú Bīngqīng (胡冰卿)</h2></div>
+                        <div class="mdl-card__actions mdl-card--border">
+                            <button class="mdl-button mdl-button--colored mdl-button--question mdl-button--image mdl-js-button mdl-button--raised" data-upgraded=",MaterialButton"><i class="material-icons center-icon">remove</i><span class="mdl-checkbox__label">Thai</span></button>
+                            <button class="mdl-button mdl-button--colored mdl-button--question mdl-button--image mdl-js-button mdl-button--raised" data-upgraded=",MaterialButton"><i class="material-icons center-icon">remove</i><span class="mdl-checkbox__label">Chinese</span></button>
+                            <button class="mdl-button mdl-button--colored mdl-js-button mdl-more-info" style="display: none;" data-upgraded=",MaterialButton"><span class="more-info">More Info</span><i class="material-icons center-icon more-info-icon">expand_more</i></button>
+                        </div>
+                        <div class="mdl-card__supporting-text more-info" style="display: none;">
+                            <p>More info in the future.</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- END QUESTION 11 -->
+                <!-- QUESTION 12 -->
+                <div id="q12" class="mdl-cell mdl-cell--12-col mdl-text-question">
+                    <div class="mdl-card mdl-shadow--2dp">
+                        <div class="mdl-card__title mdl-card--expand" style="background-image: url(images/shao_xingyun.jpg); background-repeat: no-repeat; background-position: center; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover;">
+                            <h2 class="mdl-card__title-text" style="display: none;">Shào Xīngyún (邵星芸)</h2></div>
+                        <div class="mdl-card__actions mdl-card--border">
+                            <button class="mdl-button mdl-button--colored mdl-button--question mdl-button--image mdl-js-button mdl-button--raised" data-upgraded=",MaterialButton"><i class="material-icons center-icon">remove</i><span class="mdl-checkbox__label">Thai</span></button>
+                            <button class="mdl-button mdl-button--colored mdl-button--question mdl-button--image mdl-js-button mdl-button--raised" data-upgraded=",MaterialButton"><i class="material-icons center-icon">remove</i><span class="mdl-checkbox__label">Chinese</span></button>
+                            <button class="mdl-button mdl-button--colored mdl-js-button mdl-more-info" style="display: none;" data-upgraded=",MaterialButton"><span class="more-info">More Info</span><i class="material-icons center-icon more-info-icon">expand_more</i></button>
+                        </div>
+                        <div class="mdl-card__supporting-text more-info" style="display: none;">
+                            <p>Shào Xīngyún (Born May 19, 1989) is a net idol. She majored in music performance at the Zhejiang Institute of Media, and enjoys playing music, studying cinema and dance.</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- END QUESTION 12 -->
+                <!-- RESULTS -->
+                <div class="mdl-cell mdl-cell--12-col mdl-results">
+                    <div class="mdl-card mdl-shadow--2dp">
+                        <div class="mdl-card__title">
+                            <h2 class="mdl-card__title-text">Results</h2></div>
+                        <div class="mdl-card__supporting-text">
+                            <p>This is the end of the quiz.</p>
+                            <p>You have answered <span class="score">0</span> out of 12 questions and <span class="score">0</span> / <span class="answered">0</span> (<span class="score-percentage">0%</span>) of your answers are correct.</p>
+                            <p><span class="message">Start answering the quiz questions!</span></p>
+                        </div>
+                    </div>
+                </div>
+                <!-- END RESULT -->
+                <div class="mdl-cell mdl-cell--4-col">
+                    <div id="q1-result" class="mdl-card mdl-shadow--2dp">
+                        <div class="mdl-card__title"><a class="page-scroll" href="#q1"><h2 class="mdl-card__title-text">Question 1<i class="material-icons center-icon result-icon">help_outline</i></h2></a></div>
+                    </div>
+                </div>
+                <div class="mdl-cell mdl-cell--4-col">
+                    <div id="q2-result" class="mdl-card mdl-shadow--2dp">
+                        <div class="mdl-card__title"><a class="page-scroll" href="#q2"><h2 class="mdl-card__title-text">Question 2<i class="material-icons center-icon result-icon">help_outline</i></h2></a></div>
+                    </div>
+                </div>
+                <div class="mdl-cell mdl-cell--4-col">
+                    <div id="q3-result" class="mdl-card mdl-shadow--2dp">
+                        <div class="mdl-card__title"><a class="page-scroll" href="#q3"><h2 class="mdl-card__title-text">Question 3<i class="material-icons center-icon result-icon">help_outline</i></h2></a></div>
+                    </div>
+                </div>
+                <div class="mdl-cell mdl-cell--4-col">
+                    <div id="q4-result" class="mdl-card mdl-shadow--2dp">
+                        <div class="mdl-card__title"><a class="page-scroll" href="#q4"><h2 class="mdl-card__title-text">Question 4<i class="material-icons center-icon result-icon">help_outline</i></h2></a></div>
+                    </div>
+                </div>
+                <div class="mdl-cell mdl-cell--4-col">
+                    <div id="q5-result" class="mdl-card mdl-shadow--2dp">
+                        <div class="mdl-card__title"><a class="page-scroll" href="#q5"><h2 class="mdl-card__title-text">Question 5<i class="material-icons center-icon result-icon">help_outline</i></h2></a></div>
+                    </div>
+                </div>
+                <div class="mdl-cell mdl-cell--4-col">
+                    <div id="q6-result" class="mdl-card mdl-shadow--2dp">
+                        <div class="mdl-card__title"><a class="page-scroll" href="#q6"><h2 class="mdl-card__title-text">Question 6<i class="material-icons center-icon result-icon">help_outline</i></h2></a></div>
+                    </div>
+                </div>
+                <div class="mdl-cell mdl-cell--4-col">
+                    <div id="q7-result" class="mdl-card mdl-shadow--2dp">
+                        <div class="mdl-card__title"><a class="page-scroll" href="#q7"><h2 class="mdl-card__title-text">Question 7<i class="material-icons center-icon result-icon">help_outline</i></h2></a></div>
+                    </div>
+                </div>
+                <div class="mdl-cell mdl-cell--4-col">
+                    <div id="q8-result" class="mdl-card mdl-shadow--2dp">
+                        <div class="mdl-card__title"><a class="page-scroll" href="#q8"><h2 class="mdl-card__title-text">Question 8<i class="material-icons center-icon result-icon">help_outline</i></h2></a></div>
+                    </div>
+                </div>
+                <div class="mdl-cell mdl-cell--4-col">
+                    <div id="q9-result" class="mdl-card mdl-shadow--2dp">
+                        <div class="mdl-card__title"><a class="page-scroll" href="#q9"><h2 class="mdl-card__title-text">Question 9<i class="material-icons center-icon result-icon">help_outline</i></h2></a></div>
+                    </div>
+                </div>
+                <div class="mdl-cell mdl-cell--4-col">
+                    <div id="q10-result" class="mdl-card mdl-shadow--2dp">
+                        <div class="mdl-card__title"><a class="page-scroll" href="#q10"><h2 class="mdl-card__title-text">Question 10<i class="material-icons center-icon result-icon">help_outline</i></h2></a></div>
+                    </div>
+                </div>
+                <div class="mdl-cell mdl-cell--4-col">
+                    <div id="q11-result" class="mdl-card mdl-shadow--2dp">
+                        <div class="mdl-card__title"><a class="page-scroll" href="#q11"><h2 class="mdl-card__title-text">Question 11<i class="material-icons center-icon result-icon">help_outline</i></h2></a></div>
+                    </div>
+                </div>
+                <div class="mdl-cell mdl-cell--4-col">
+                    <div id="q12-result" class="mdl-card mdl-shadow--2dp">
+                        <div class="mdl-card__title"><a class="page-scroll" href="#q12"><h2 class="mdl-card__title-text">Question 12<i class="material-icons center-icon result-icon">help_outline</i></h2></a></div>
+                    </div>
+                </div>
+            </section>
+        </main>
+    </div>
+    <div id="view-source" class="mdl-button mdl-js-button mdl-button--raised mdl-color--accent mdl-color-text--accent-contrast">Score: <span class="score">0</span>/12 (<span class="score-percentage">0%</span>)</div>
+    <div class="mdl-tooltip" for="view-source">You're doing well!</div>
+    <script src="js/data.js"></script>
+    <script src="js/material.min.js"></script>
+    <script src="js/jquery.min.js"></script>
+    <script src="js/quiz.js"></script>
+</body>
+
+</html>
