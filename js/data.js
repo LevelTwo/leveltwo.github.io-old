@@ -153,19 +153,25 @@ var questions = [
     "name": "Líu Yìfēi (刘亦菲)",
     "nationality": "Chinese",
     "image": "images/liu_yifei.jpg",
-    "description": "Description in the future."
+    "description": "Líu Yìfēi (刘亦菲) is a Chinese American actress, model and singer. She holds United States citizenship. In 2008, she co-starred with Jet Li and Jackie Chan in The Forbidden Kingdom, in which she played Golden Sparrow, an orphan seeking revenge against her parents' killer. In 2010, she starred in Love in Disguise with Leehom Wang."
+  },
+  {
+    "name": "Líu Shīshī (刘诗诗)",
+    "nationality": "Chinese",
+    "image": "images/liu_shishi.jpg",
+    "description": "Líu Shīshī (刘诗诗) (born March 10, 1987 in Beijing, China), also known by her English name Cecilia Liu, is a Chinese actress and ballerina. In May 2012, she was nominated for, and won the Magnolia Award (白玉蘭獎) for the most popular actress for her role in Chinese time-travel drama Scarlet Heart."
   },
   {
     "name": "Lǐ Yìfēng (李易峰)",
     "nationality": "Chinese",
     "image": "images/li_yifeng.jpg",
-    "description": "Description in the future."
+    "description": "Lǐ Yìfēng (李易峰) (born May 4, 1987) is a Chinese actor and singer from Chengdu. Li achieved fame in 2007 on the popular “My Hero” TV talent show. Modeling jobs and a series of successful pop songs followed, extending his popularity among a growing number of fans and landing him parts— supporting roles, first, then the leads—in a string of hit TV sitcoms."
   },
   {
     "name": "Hú Bīngqīng (胡冰卿)",
     "nationality": "Chinese",
     "image": "images/hu_binqing.jpg",
-    "description": "Description in the future."
+    "description": "Hú Bīngqīng (胡冰卿) (born January 25, 1992) is a Chinese actress. She was born in Shanghai , and graduated from Fudan University, Shanghai Institute of Visual Art Performance Department. She has played in many Chinese TV series such as The Imperial Doctoress (女医·明妃传) and The Legend of Qin (秦时明月)."
   },
   {
     "name": "Shào Xīngyún (邵星芸)",
@@ -180,45 +186,93 @@ var questions = [
     "description": "Zhāng Zétiān (Born November 18, 1993) is a net idol turned product sponsor. She participated in many cheerleading competitions, and now is a spokesperson for many products such as Microsoft Bing."
   },
   {
+    "name": "Chén Kǎigē (陈凯歌)",
+    "nationality": "Chinese",
+    "image": "images/chen_kaige.jpg",
+    "description": "Chen Kaige (born August 12, 1952) is a Chinese film director and a leading figure of the fifth generation of Chinese cinema. His films are known for their visual flair and epic storytelling. Chen won the Palme d'Or at 1993 Cannes Film Festival and the International Federation of Film Critics (FIPRESCI) Award in 1993."
+  },
+  {
+    "name": "Rèn Zhèngfēi (任正非)",
+    "nationality": "Chinese",
+    "image": "images/ren_zhengfei.jpg",
+    "description": "Ren Zhengfei (born 1944 in Guizhou, China) is a Chinese businessman. He is the founder and president of Huawei Technologies Co. Ltd., headquartered in Shenzhen, China, and an ex-People's Liberation Army officer. Hurun Report listed Ren as the 556th richest person in China in 2013 with private assets of approximately $590 million USD."
+  },
+  {
+    "name": "Zhèng Shuǎng (郑爽)",
+    "nationality": "Chinese",
+    "image": "images/zheng_shuang.jpg",
+    "description": "Zhèng Shuǎng (born 22 August 1991) is a Chinese actress and singer. She graduated from the Beijing Film Academy in 2011, and subsequently starred in many films and television series, including Painted Mural (画壁), Secret History of Empress Wu, War of Desire, No Limit (无极限), and Secret History of Princess Taiping."
+  },
+  {
+    "name": "Lù Hán (鹿晗)",
+    "nationality": "Chinese",
+    "image": "images/luhan.jpg",
+    "description": "Lù Hán (鹿晗) (born April 20, 1990 in Beijing), is a Chinese singer and actor who was a former member of the South Korean-Chinese boy band EXO, and its subgroup EXO-M. He is signed to S.M. Entertainment in South Korea and Avex Trax in Japan. In 2014, China National Radio ranked Lu Han the sixth among the top ten most popular entertainment stars in the country."
+  },
+  {
+    "name": "Yáng Mì (杨幂)",
+    "nationality": "Chinese",
+    "image": "images/yang_mi.jpg",
+    "description": "Yáng Mì (杨幂) (born 12 September 1986 in Beijing) is a Chinese actress and singer. She is noted for her roles as Guo Xiang and Tang Xuejian in the television series The Return of the Condor Heroes (2006) and Chinese Paladin 3 (2009) respectively. She has now gained even greater popularity from her breakthrough role as Luo Qingchuan in Palace (2011)."
+  },
+  {
+    "name": "Chuan Leekpai",
+    "nationality": "Thai",
+    "image": "images/chuan_leekpai.jpg",
+    "description": "Chuan Leekpai (born July 28, 1938 in Trang) was the Prime Minister of Thailand from September 20, 1992 to May 19, 1995 and again from November 9, 1997 to February 9, 2001. As the leader of the Democrat Party, Chuan was elected in 1992 after the abortive coup by General Suchinda Kraprayoon, thus becoming Thailand's first prime minister to come to power without either aristocratic or military backing."
+  },
+  {
     "name": "Dhanin Chearavanont",
     "nationality": "Thai",
     "image": "images/dhanin_chearavanont.jpg",
-    "description": "Description in the future."
+    "description": "Dhanin Chearavanont (born 1939) is a Thai businessman based in Bangkok. As of Forbes 2013 List of World Billionaires, Chearavanont is placed 58th with a net worth of $14.3 billion, making him the richest person in Thailand and in Southeast Asia."
+  },
+  {
+    "name": "Prayut Chan-o-cha",
+    "nationality": "Thai",
+    "image": "images/prayut_chan-o-cha.jpg",
+    "description": "Prayut Chan-o-cha (born 21 March 1954) is a retired Royal Thai Army officer who is the current Prime Minister of Thailand and head of the National Council for Peace and Order (NCPO), a military junta that has the power to control the Prime Minister position. Prayut is a former Commander in Chief of the Royal Thai Army, the post he held from October 2010 to October 2014."
+  },
+  {
+    "name": "Kanya Rattanapetch",
+    "nationality": "Thai",
+    "image": "images/kanya_rattanapetch.jpg",
+    "description ": "Kanya Rattanapetch (born November 2, 1989) in Thailand, is a Thai model and actress. She is best known for her role in the 2007 film, The Love of Siam as Ying."
   },
   {
     "name": "James Assarasakorn",
     "nationality": "Thai",
     "image": "images/james_assarasakorn.jpg",
-    "description": "Description in the future."
+    "description": "James Assarasakorn (born July 3, 1993) known by his stage name James Ma, is a Thai actor and model based in Thailand. Ma currently attends Assumption University and made his acting debut in 2013."
   },
   {
     "name": "Nichkhun",
     "nationality": "Thai",
     "image": "images/nichkhun.jpg",
-    "description": "Description in the future."
+    "description": "Nichkhun Buck Horvejkul (born June 24, 1988) known mononymously as Nichkhun (Korean: 닉쿤), is an Thai-American rapper, singer, songwriter, model and actor. He is currently based in South Korea as a member of 2PM, a South Korean boy band."
   },
   {
     "name": "Pimtha",
     "nationality": "Thai",
     "image": "images/pimtha.jpg",
-    "description": "Description in the future."
+    "description": "Internet Idol. Graduated from Ritsumeikan Asia Pacific University."
   },
   {
     "name": "Pornnppan Pornpenpipat",
     "nationality": "Thai",
     "image": "images/pornnppan_pornpenpipat.jpg",
-    "description": "Description in the future."
+    "description": "Internet idol/singer. Competed in Academy Fantasia (Thailand's singing competition). Studies civil engineering."
   },
   {
     "name": "Frung",
     "nationality": "Thai",
     "image": "images/frung.jpg",
-    "description": "Description in the future."
+    "description": "Actress best known for her role in the Thai coming-of-age series Hormones."
   },
   {
     "name": "Charada Imraporn",
     "nationality": "Thai",
     "image": "images/charada_imraporn.jpg",
-    "description": "Description in the future."
+    "description": "Nicknamed Piglet, she was in the Disney Talent Contest 2004. She won 3rd Place: Semi-final Sing & Dance Contest Future Junior Talent Contest 2004 and 3rd Place: Semi-final SF Junior Singing Contest 2005. She was also in C-SA Dream Road To Stars 2009."
   }
 ];

@@ -20,7 +20,10 @@ a {
   text-decoration: none !important; }
 
 main.mdl-layout__content {
-  background: url("../images/mb-bg-fb-02.png") center/cover; }
+  background-color: whitesmoke; }
+
+.mdl-layout__header {
+  background-color: #00BCD4; }
 
 .demo-avatar {
   width: 48px;
@@ -253,6 +256,9 @@ section.section--center {
 
 .mdl-more-info {
   padding-left: 16px; }
+
+.mdl-color--accent {
+  background-color: #607D8B; }
 
 .mdl-button--question {
   margin-top: 4px;
